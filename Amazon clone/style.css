@@ -236,30 +236,31 @@ span {
 
 /* book section */
 .book-section {
-    height: 400px;
-    background-color: #e2e7e6;
+    overflow-x: scroll;
+    white-space: nowrap;
+    margin: 1rem;
+    
 }
+.box-content {
+    margin-left: 1rem;
+    margin-top: 1rem;
+    margin-right: 1rem;
+}
+
 .book {
-    padding-top: 1rem;
-    max-height: 300px;
-    border: 1px solid rgb(255, 255, 255);    
-    background-color: white;
-
-    display: flex;
-    overflow-x: auto;
-    margin-left: 15px;
+    display: inline-block;
 }
 
-.book::-webkit-scrollbar {
-    width: 15;
-}
-.book .book-img {
-    height: 190px;
-    width: 50%;
-    line-height: 180px;
-    text-align: center;
+.book-img {
+    margin-left: 1rem;
+    width: 150px; 
+    height: 200px; 
     background-size: cover;
-    margin: 1rem;   
+    background-position: center;
+    display: inline-block;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    align-items: center;
 }
 
 /* footer */
